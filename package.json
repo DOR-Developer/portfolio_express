@@ -1,0 +1,37 @@
+{
+  "name": "test-page",
+  "version": "1.0.0",
+  "description": "Web portfolio",
+  "main": "index.js",
+  "type": "commonjs",
+  "scripts": {
+    "test": "test",
+    "start": "nodemon app.js",
+    "build": "webpack --config webpack.config.js --mode development"
+  },
+  "keywords": [
+    "portfolio",
+    "web",
+    "frontend",
+    "front",
+    "design",
+    "layout",
+    "css",
+    "html",
+    "javascript",
+    "node"
+  ],
+  "author": "Daniel Otero Rivera <oteroriveradaniel@gmail.com>",
+  "license": "ISC",
+  "dependencies": {
+    "ejs": "^3.1.9",
+    "express": "^4.18.2",
+    "node-sass-middleware": "^1.1.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.3",
+    "sass": "^1.70.0",
+    "webpack": "^5.90.1",
+    "webpack-cli": "^5.1.4"
+  }
+}
